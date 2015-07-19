@@ -286,7 +286,7 @@ print(xtab, type = "html")
 ```
 
 <!-- html table generated in R 3.2.1 by xtable 1.7-4 package -->
-<!-- Sun Jul 19 16:15:49 2015 -->
+<!-- Sun Jul 19 16:43:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> NA's ignored </th> <th> NA's filled in </th> <th> delta </th>  </tr>
   <tr> <td align="right"> mean </td> <td align="right"> 10766.19 </td> <td align="right"> 10765.64 </td> <td align="right"> 0.55 </td> </tr>
@@ -364,7 +364,7 @@ summary(meanStepsInFiveMinWe)
 ##   0.000   1.234  32.310  42.360  74.610 166.600
 ```
 
-A *panel plot* comparing *"weekday"* days and *"weekend"* days is presented (base R plotting system is used).
+A **panel plot** comparing *"weekday"* days and *"weekend"* days is presented (base R plotting system is used).
 
 ```r
 par(mfrow = c(2,1))
@@ -380,4 +380,4 @@ plot(names(meanStepsInFiveMinWe), meanStepsInFiveMinWe, type = "l",
 
 ![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19-1.png) 
 
-Qualitatively, activity pattern during weekdays appears to be clearly different than activity pattern during weekend days. Number of steps taken for 5-minute interval is more evenly distributed during the day in the weekend than in a weekday.  On the othe side a peak value is tipically registered in a weekday and not during the weekend. Quantitatively, the average number of steps for 5-minute interval is greater during weekend days than during weekdays. Further investigation is anyhow needed before reaching any conlusion.
+Qualitatively, activity pattern during weekdays appears to be different than activity pattern during weekend days. Number of steps taken for 5-minute interval is more evenly distributed during a day in the weekend than in a weekday.  On the other side a higher peak value is tipically registered in a weekday than during the weekend. Quantitatively, the average number of steps for 5-minute interval is greater during weekend days than during weekdays. Further investigation is anyhow needed before reaching any conlusion.
